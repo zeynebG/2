@@ -34,3 +34,13 @@ let messenger = new Messenger();
 messenger.send('Adil', 'ilk mesaj')
 messenger.send('Məryəm', 'İkinci mesaj')
 messenger.show_history()
+
+
+let nameforMessage = document.querySelector(".name")
+let textforArea = document.querySelector(".textforArea")
+let history = document.querySelector(".history")
+let showButton = document.querySelector(".btn")
+
+showButton.addEventListener('click' , function(event){
+    event.preventDefault();
+})
